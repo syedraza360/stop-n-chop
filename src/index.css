@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: #0d0d0d;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.mapboxgl-ctrl-top-right {
+  width: 98vw !important;
+  margin: 20px !important;
+  float: none !important;
+  margin-right: 35px !important;
+}
+.mapboxgl-ctrl-geocoder {
+  max-width: 100vw !important;
+  border-radius: 16px !important;
+  padding: 12px !important;
+}
+.mapboxgl-ctrl-geocoder--icon {
+  top: 20px !important;
+  left: 10px !important;
+}
+.mapboxgl-ctrl-geocoder--input:focus {
+  outline: none !important;
+}
+
+.mapboxgl-ctrl-geocoder {
+  width: 78% !important;
+}
+.mapboxgl-ctrl-group {
+  margin-top: 30% !important;
+  /* left: 0px !important; */
+  /* right: 10px !important;
+  top: 300px !important;
+  position: absolute !important; */
+}
+
+@media screen and (max-width: 600px) {
+  .mapboxgl-ctrl-top-right {
+    margin-right: 15px !important;
+  }
+  .mapboxgl-ctrl-geocoder--icon {
+    top: 25px !important;
+    left: 16px !important;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .mapboxgl-ctrl-group {
+    margin-top: 115% !important;
+  }
+}
+@media screen and (min-width: 362px) and (max-width: 375px) {
+  .mapboxgl-ctrl-group {
+    margin-top: 125% !important;
+  }
+}
+@media screen and (min-width: 374px) and (max-width: 376px) {
+  .mapboxgl-ctrl-group {
+    margin-top: 95% !important;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 400px) {
+  .mapboxgl-ctrl-group {
+    margin-top: 135% !important;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 420px) {
+  .mapboxgl-ctrl-group {
+    margin-top: 145% !important;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 541px) {
+  .mapboxgl-ctrl-group {
+    margin-top: 80% !important;
+  }
+}
+@media screen and (min-width: 542px) and (max-width: 769px) {
+  .mapboxgl-ctrl-group {
+    margin-top: 95% !important;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 821px) {
+  .mapboxgl-ctrl-group {
+    margin-top: 105% !important;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 821px) {
+  .mapboxgl-ctrl-geocoder {
+    width: 90% !important;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none !important;
+
+  -webkit-text-fill-color: white;
+
+  /* -webkit-box-shadow: 0 0 0px 1000px #FFFFFF inset; */
+
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(13, 13, 13, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffbe59;
+  outline: 1px solid transparent;
+}
+
+@media screen and (max-width: 380px) {
+  .MuiButtonBase-root {
+    font-size: 12px !important;
+  }
+}
+
+.swiper-pagination > .swiper-pagination-bullet-active {
+  background-color: #ffbe59 !important;
+}
+.swiper-pagination > .swiper-pagination-bullet {
+  background-color: #946d2f !important;
+}
